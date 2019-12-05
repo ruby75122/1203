@@ -40,7 +40,7 @@ A
 B
 #使用者帳戶控制（英語：User Account Control，UAC）為Windows Vista中所推出的安全技術之一，其主要特點在於通過限制應用軟體對系統層級的存取，從而改進Windows作業系統的安全性。
 #資源監視器在Windows Vista及之後的作業系統中內建（在Windows Vista中，它是可靠性和效能監視器的一部份）。使用者可以執行resmon.exe啟動該程式
-#Secondary logon是windows二次登�ㄙA�鵅A�n程名是svchost.exe，在WinXP Home/PRO下默�P安�E的�Q��搦洵O自�臐A�呇野籉顗A�翵怞s�蚳t。
+#Secondary logon是windows二次登录服务，进程名是svchost.exe，在WinXP Home/PRO下默认安装的启动类型是自动，没有任何服务依存关系。
 */
 
 [17]下列何者非登入作業系統可使用的網路身分驗證服務？ 
@@ -92,7 +92,7 @@ D
 
 [116]下列何者實務做法對於強化作業系統本身保護,降低被攻擊風險並沒有太大的效益?
 (A) 定期自動更新
-(B) 啟用預設拒�F政策的系統防火牆
+(B) 啟用預設拒絶政策的系統防火牆
 (C) 啟用 IPSec 服務
 (D) 安裝並更新防毒軟體
 /*
@@ -228,7 +228,7 @@ A,B
 A
 #sqlmap是一個開源軟件，用於檢測和利用數據庫漏洞，並提供了將惡意代碼注入其中的選項。
 它是一種滲透測試工具，可在終端中提供其用戶界面，從而自動檢測和利用SQL注入漏洞的過程。
-#BSQL 是一�杵QL智能查�R分析工具，支持Oracle，SQLServer，MySQL，Access，Sybase和SQLAnywhere�觛u�楚ABSQL支持快速�掍X�觛u�楫�觛u至Excel, HTML, RTF, PDF, XML等等...
+#BSQL 是一个SQL智能查询分析工具，支持Oracle，SQLServer，MySQL，Access，Sybase和SQLAnywhere数据库，BSQL支持快速导出数据库的数据至Excel, HTML, RTF, PDF, XML等等...
 #Bobcat 是一款可以協助安全測試人員進行SQL injection 的審核任務。
 */
 
@@ -290,7 +290,8 @@ C
 /* 
 D
 Server-side Injection --->伺服器端注入
-#盲SQL注入攻��(blind SQL injection attack)是SQL注入攻�菄漱@种�搦活A�救�攻�菑閬′O��觛u�楚辛u假”��_，然后根据�觛u�楫漲^�塈P�妗狙�
+#盲SQL注入攻击(blind SQL injection attack)是SQL注入攻击的一种类型，这种攻击方式是问数据库”真假”问题，然后根据数据库的回应判断答案－应用程序输出的错误信息。
+盲SQL注入和SQL注入的不同是从数据库中获得数据的方式，当数据库不向网页上输出数据时，攻击者通过问数据库一系列的”真假”问题获得敏感数据。
 #休眠注入(Hibernate Injection)使用Hibernate修復SQL注入
 #命令注入弱點(Command Injection)是一種常見的網頁注入攻擊行為，若管理者未在網站的輸入表單中正確過濾敏感字元，攻擊者有則可能透過這些進入點，將指令傳送至Server本機中執行後，再將執行結果透過動態網頁語言輸出，藉此獲取機敏資訊或執行未經授權的任意指令。
 #跨網站指令碼（英語：Cross-site scripting，通常簡稱為：XSS）是一種網站應用程式的安全漏洞攻擊，是代碼注入的一種。它允許惡意使用者將程式碼注入到網頁上，其他使用者在觀看網頁時就會受到影響。
