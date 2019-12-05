@@ -6,7 +6,7 @@
 (A) 實體層（Physical Layer） (B) 資料鏈結層（Data-Link Layer） 
 (C) 網路層（Network Layer） (D) 應用層（Application Layer）
 *
-c
+
 實體層（Physical Layer）是電腦網路OSI模型中最低的一層，也是最基本的一層。簡單的說，網路的實體層面確保原始的資料可在各種物理媒體上傳輸。
 實體層規定：為傳輸資料，需要物理鏈路與裝置的建立、維持、拆除，並具有機械的、電子的、功能的、規範的特性。
 資料連結層（Data Link Layer）是OSI参考模型第二層，位於實體層與網路層之間。在廣播式多路存取鏈路中（區域網路），
