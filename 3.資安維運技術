@@ -105,7 +105,8 @@ D
 /*
 C
 #OpenVAS（Open Vulnerability Assessment System）是一套自由軟體（Open Source）的弱點掃描檢測工具。它可以幫助使用者找出目前使用或管理的主機系統是否存在可能被攻擊的系統或程式漏洞，並提供可能的解決方法。
-#Nessus�� Essentials (之前稱為 Nessus Home) 是 Nessus 系列產品之一，可用來掃描環境 (每個掃描器最多可掃描 16 個 IP 位址)，享有與 Nessus 訂戶相同的快速深入評估功能，以及免安裝代理程式的便利掃描功能。Nessus Essentials 免除了之前個人及非商務用途只能使用 Nessus Home 的限制
+#Nessus Essentials (之前稱為 Nessus Home) 是 Nessus 系列產品之一，可用來掃描環境 (每個掃描器最多可掃描 16 個 IP 位址)，享有與 Nessus 訂戶相同的快速深入評估功能，
+以及免安裝代理程式的便利掃描功能。Nessus Essentials 免除了之前個人及非商務用途只能使用 Nessus Home 的限制。
 #Metasploit專案是一個旨在提供安全漏洞資訊電腦安全專案，可以協助安全工程師進行滲透測試（penetration testing）及入侵檢測系統簽章開發。
 #Nmap（網路對映器）是一款用於網路發現和安全審計的網路安全工具，它是自由軟體。軟體名字Nmap是Network Mapper的簡稱。
 */
